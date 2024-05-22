@@ -7,6 +7,8 @@ import io.restassured.http.ContentType;
 
 import static io.restassured.RestAssured.*;
 
+import static org.hamcrest.Matchers.*;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -34,7 +36,11 @@ public class SoapXMLRequest {
 		.when()
 			.post("/faculty/fawcett/Handouts/cse775/code/calcWebService/Calc.asmx?op=Add")
 		.then()
-			.statusCode(200).log().all();
+			.statusCode(200).log().all()
+		.and()
+			.body("//*:AddResult.text()", equalTo("5"));
+		
+		
 	}
 
 }
