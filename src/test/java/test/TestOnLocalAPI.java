@@ -8,6 +8,10 @@ import io.restassured.http.ContentType;
 import static io.restassured.RestAssured.*;
 
 public class TestOnLocalAPI {
+	
+	// To start json-server local -
+	// Go to the db.json location and npx json-server --watch db.json
+	// json-server --watch db.json
 
 	@Test
 	public void get() {

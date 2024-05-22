@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-22T09:44:43 AEST" name="Default suite" finished-at="2024-05-22T09:44:44 AEST" duration-ms="582">
+  <suite started-at="2024-05-22T16:11:34 AEST" name="Default suite" finished-at="2024-05-22T16:11:36 AEST" duration-ms="1185">
     <groups>
     </groups>
-    <test started-at="2024-05-22T09:44:43 AEST" name="Default test" finished-at="2024-05-22T09:44:44 AEST" duration-ms="582">
-      <class name="test.TestOnLocalAPI">
-        <test-method signature="delete()[pri:0, instance:test.TestOnLocalAPI@19bb07ed]" started-at="2024-05-22T09:44:43 AEST" name="delete" finished-at="2024-05-22T09:44:44 AEST" duration-ms="566" status="PASS">
+    <test started-at="2024-05-22T16:11:34 AEST" name="Default test" finished-at="2024-05-22T16:11:36 AEST" duration-ms="1185">
+      <class name="test.JSONSchemaValidator">
+        <test-method signature="testPost()[pri:0, instance:test.JSONSchemaValidator@2145b572]" started-at="2024-05-22T16:11:34 AEST" name="testPost" finished-at="2024-05-22T16:11:36 AEST" duration-ms="1167" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- delete -->
-      </class> <!-- test.TestOnLocalAPI -->
+        </test-method> <!-- testPost -->
+      </class> <!-- test.JSONSchemaValidator -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
